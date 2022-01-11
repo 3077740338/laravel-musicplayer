@@ -1,0 +1,24 @@
+{
+    "name": "learn/laravel-musicplayer",
+    "description": "private package",
+    "keywords": ["laravel", "framework", "Learn"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jiang Tao",
+            "email": "3077740338@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Learn\\MusicPlayer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Learn\\MusicPlayer\\PlayerServiceProvider"
+            ]
+        }
+    }
+}
